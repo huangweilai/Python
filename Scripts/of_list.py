@@ -5,7 +5,7 @@
 li = list([1,2,3])
 # l2 = list((1,2,3))
 # print(li)
-li.append(99)
+# li.append(99)
 # li.extend([11,22,33])       #扩展
 # li.extend((55,66,))         #扩展
 # li.insert(0,'huangwl')      #插入
