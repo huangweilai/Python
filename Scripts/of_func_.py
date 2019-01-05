@@ -30,9 +30,39 @@ print(chr(99))
 print(random.randint(1,1000))
 
 print(dir())
-"""
+
 mobile = ["apple","huawei","xiaomi"]
 for i,item in enumerate(mobile,1):
     print(i,item)
+"""
+# map
+n1 = [11,22,33,44,]
+new_n1 = map(lambda x: x+100,n1)
+ret_new_n1 = list(new_n1)
+print(ret_new_n1,'\n')
+
+# 2
+def func_(x):
+    return x+100
+
+new_n2 = map(func_,n1)
+print(list(new_n2),'\n')
+
+# filter
+def fun_(i):
+    if i>33:
+        return True
+    else:
+        return False
+
+ret_filter = filter(fun_,n1)
+print(list(ret_filter),'\n')
+
+print(globals())        #全局变量
+print(locals())         #局部变量
+print(oct(10))
+
+
+
 
 
